@@ -1,6 +1,7 @@
 import './App.css'
 import Likes from './component/Like'
 import Title from './component/Title'
+import CommentBlock from './component/CommentBlock'
 
 function App() {
 	return (
@@ -12,6 +13,7 @@ function App() {
 						<Title />
 						<Likes />
 					</div>
+					<CommentBlock />
 				</div>
 			</div>
 		</div>
